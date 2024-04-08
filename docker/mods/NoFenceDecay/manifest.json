@@ -1,10 +1,10 @@
 {
-  "Name": "No Fence Decay",
-  "Author": "Cat",
-  "Version": "1.5.0",
-  "Description": "Makes all fences and gates last forever.",
-  "UniqueID": "cat.nofencedecay",
-  "EntryDll": "NoFenceDecay.dll",
-  "MinimumApiVersion": "2.9.0",
-  "UpdateKeys": [ "Nexus:1180" ]
+  "Name": "No Fence Decay Redux",
+  "Author": "EnderTedi",
+  "Version": "1.0.0",
+  "Description": "Stops Fence Decay From Occuring",
+  "UniqueID": "EnderTedi.NoFenceDecayRedux",
+  "EntryDll": "No Fence Decay - Redux.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:20802" ]
 }
