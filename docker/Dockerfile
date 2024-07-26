@@ -15,8 +15,7 @@ RUN mkdir -p /data/Stardew && \
     wget --save-cookies /tmp/gcookie \
      --no-check-certificate \
      'https://drive.google.com/uc?export=download&id=1OwAaoppisUsK6UWAjDdOHC21jzQEn9yF' \
-     -O latest.tar.gz
- && \
+     -O latest.tar.gz && \
     tar xf /data/latest.tar.gz -C /data/Stardew && \
     rm /data/latest.tar.gz 
 
