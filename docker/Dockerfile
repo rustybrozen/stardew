@@ -31,7 +31,7 @@ RUN wget https://github.com/Pathoschild/SMAPI/releases/download/4.0.8/SMAPI-4.0.
 COPY ["mods/", "/data/Stardew/game/Mods/"]
 COPY scripts/ /opt/
 
-RUN chmod +x /data/Stardew/game/StardewValley && \
+RUN chmod +x "/data/Stardew/game/Stardew Valley" && \
     chmod -R 777 /data/Stardew/ && \
     chown -R 1000:1000 /data/Stardew && \
     chmod +x /opt/*.sh
