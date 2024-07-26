@@ -12,9 +12,9 @@ RUN APP_ICON_URL=https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png && 
 # Game + ModLoader 1.6.2 4.0.1
 RUN mkdir -p /data/Stardew && \
     mkdir -p /data/nexus && \
-    wget wget --no-check-certificate "https://drive.usercontent.google.com/download?id=1OwAaoppisUsK6UWAjDdOHC21jzQEn9yF&export=download&authuser=0&confirm=t&uuid=08d16711-b044-448f-afb5-94b564ec6b5c&at=APZUnTWyx220lWOmveG6CygLoOKj%3A1722009010633" -O latest.tar.gz && \
+    wget --no-check-certificate "https://drive.usercontent.google.com/download?id=1OwAaoppisUsK6UWAjDdOHC21jzQEn9yF&export=download&authuser=0&confirm=t&uuid=08d16711-b044-448f-afb5-94b564ec6b5c&at=APZUnTWyx220lWOmveG6CygLoOKj%3A1722009010633" -O /data/latest.tar.gz && \
     tar xf /data/latest.tar.gz -C /data/Stardew && \
-    rm /data/latest.tar.gz 
+    rm /data/latest.tar.gz
 
 RUN wget -qO dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/6788a5a5-1879-4095-948d-72c7fbdf350f/c996151548ec9f24d553817db64c3577/dotnet-sdk-5.0.402-linux-x64.tar.gz \
 #RUN wget -qO dotnet.tar.gz https://download.visualstudio.microsoft.com/download/pr/95352809-7f41-40f3-974d-8d530321a8e4/0024d7bf0c872f176ceba7a63a34915b/dotnet-runtime-6.0.0-linux-musl-x64.tar.gz \
