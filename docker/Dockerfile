@@ -12,10 +12,7 @@ RUN APP_ICON_URL=https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png && 
 # Game + ModLoader 1.6.2 4.0.1
 RUN mkdir -p /data/Stardew && \
     mkdir -p /data/nexus && \
-    wget --save-cookies /tmp/gcookie \
-     --no-check-certificate \
-     'https://drive.google.com/uc?export=download&id=1OwAaoppisUsK6UWAjDdOHC21jzQEn9yF' \
-     -O latest.tar.gz && \
+    wget wget --no-check-certificate "https://drive.usercontent.google.com/download?id=1OwAaoppisUsK6UWAjDdOHC21jzQEn9yF&export=download&authuser=0&confirm=t&uuid=08d16711-b044-448f-afb5-94b564ec6b5c&at=APZUnTWyx220lWOmveG6CygLoOKj%3A1722009010633" -O latest.tar.gz && \
     tar xf /data/latest.tar.gz -C /data/Stardew && \
     rm /data/latest.tar.gz 
 
